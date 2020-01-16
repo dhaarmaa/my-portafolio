@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    align-content: center;
+    background-color: black;
+    
+}
+
+.nav-link{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Navigation-link{
+    margin: 20px;
+    color:white;
+}

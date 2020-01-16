@@ -6,7 +6,7 @@ function Home (){
     return(
         <div className="container-home">
              <Navigation home="INICIO" project="PROYECTOS" about="CONOCEME" contact="CONTACTTAME" curriculum="CV"/>
-            <div>
+            <div className="font-home">
                 <h1>DHARMA HERRERA</h1>
                 <p>FRONT-END DEVELOPER</p>
 
