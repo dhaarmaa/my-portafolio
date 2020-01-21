@@ -12,7 +12,7 @@ class ProjectBoxes extends Component {
                             <div class="mask">
                                 <h2>{this.props.name}</h2>
                                 <p>{this.props.description}</p>
-                                <a href="#" class="info">Repositorio</a>
+                                <a href={this.props.link} class="info">Repositorio</a>
                                 <a href="#" class="info">Sitio Web</a>
                             </div>
                         </div>

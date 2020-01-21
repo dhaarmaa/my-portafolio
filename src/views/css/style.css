@@ -1,0 +1,92 @@
+/* clases comunes */
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.headline{
+    text-align: center;
+    font-size:100%;
+    margin:2%;
+}
+
+.headline:hover{
+    color:#BA9EDE;
+}
+
+
+.content{
+    display:flex;
+    flex-direction: row;
+
+}
+
+
+
+/* view home */
+.font-home{
+    font-size: 150%;
+    margin-top:50px;
+
+}
+.name2{
+    margin-top: 1em;
+}
+
+
+/* view about */
+.content-about{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.img-about{
+    width: 250px;
+    
+}
+/* .img-about:hover{
+    background-color:("img2.png");
+
+} */
+
+.description{
+    width: 500px;
+    height: 50vh;
+    text-align: left;
+    margin:50px;
+    align-items: center;
+  
+}
+
+/* views project */
+.content-project{
+    display: flex;
+    flex-direction: row;
+}
+
+/* views contact */
+
+.teext{
+    font-size: 15px;
+}
+
+a{
+    font-size: 25px;
+    margin:10px;
+    color:white;
+}
+a:hover{
+    color:#BA9EDE
+}
+
+i{
+
+    color:white;
+    margin:3px;
+}
+i:hover{
+    color:#BA9EDE
+}
+

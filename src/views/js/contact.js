@@ -1,28 +1,33 @@
 import React from 'react';
-import '../css/contac.css';
+import '../css/style.css';
+
 import Navigation from '../../components/Navigation';
 
 function Contact(){
     return(
-        <div className="container-contact">
-            
+        <div className="container">
+            <Navigation home="INICIO" project="PROYECTOS" about="CONOCEME" contact="CONTACTAME" curriculum="CV"/>
+
             <div className="headline">
                 <h1>CONTACTAME</h1>
             </div>
             <div className="content">
-                <Navigation home="INICIO" project="PROYECTOS" about="CONOCEME" contact="CONTACTAME" curriculum="CV"/>
                 <div className="text-contact">
                     <div className="teext">
-                        <p>Si quieres contactarme puedes hacerlo atraves de estos medios</p>
+                        <p>Si quieres contactarme, puedes hacerlo atraves de este medio</p>
                     </div>
                     <div className="btn-contact">
-                        {/* <a href="index.html"><img src="image.png"/></a> */}
-                        {/* <a><img src="gmail.jpg"/></a> */}
-                        <p>Correo:dharma.herrera@gmail.com</p>
-                        <p>N° telefonico: +56966187699</p>
+                        
+                        <p><i class="far fa-envelope"></i>Correo:dharma.herrera@gmail.com</p>
                     </div>
                     <div className="teext">
-                        <p>o puedes hacerlo por estas redes</p>
+                        <p>o puedes hacerlo por estas redes:</p>
+                        <div className="btnsocial">
+                          
+                            <a href="https://www.linkedin.com/in/dharmaherrera/"><i class="fab fa-linkedin"></i>Linkedin</a>
+                            <span/>
+                            <a href="https://github.com/dhaarmaa"><i class="fab fa-github"></i>GitHub</a>
+                        </div>
                     </div>
                 </div>
 

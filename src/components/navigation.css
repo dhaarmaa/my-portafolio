@@ -1,17 +1,24 @@
 .navbar{
     display: flex;
-    align-content: center;
-    background-color: black;
+    flex-direction: row;
+    justify-content:flex-end;
+    /* flex-wrap: wrap; */
+}
+
+/* .navbar:hover{
+    background-color:#BA9EDE;
+} */
+
+
+.Navigation-link{
+    font-size: 150%;
+    color:white;
+   
     
 }
 
-.nav-link{
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.Navigation-link{
-    margin: 20px;
-    color:white;
+.Navigation-link:hover{
+    background-color: #BA9EDE;
+    color:black;
+    initial-letter: none;
 }
