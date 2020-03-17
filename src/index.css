@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  font-family:'Roboto', sans-serif;
+  /* font-family:'Roboto', sans-serif; */
+  font-family: 'Courgette', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color:rgba(15, 14, 14, 0.933);
@@ -9,6 +10,5 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Courgette', cursive;
 }

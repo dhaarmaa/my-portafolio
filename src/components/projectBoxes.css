@@ -6,17 +6,17 @@ html {
   #all {
     width: 300%;
     height: 200%; 
-    /* margin-right: ; */
+    
   }
 
 .view {
-    margin: 10px;
+    margin: 5px;
     float: left;
-    border: 10px solid #fff;
+    border: 10px solid #A9E3E3;
     overflow: hidden;
     position: relative;
     text-align: center;
-    box-shadow: 1px 1px 2px #e6e6e6;
+    box-shadow: 1px 1px 2px rgb(15, 134, 134);
     cursor: default;
 }
 
@@ -35,15 +35,14 @@ html {
   }
   
   .view h2 {
-    text-transform: uppercase;
-    color: #fff;
+    color: #434342;
     text-align: center;
     position: relative;
-    font-size: 17px;
+    font-size: 16px;
     font-family: Raleway, serif;
     padding: 10px;
     /*background: rgba(0, 0, 0, 0.8);*/
-    margin: 20px 0 0 0
+    /* margin: 5px 0 0 0 */
   }
   
   .view p {
@@ -51,24 +50,24 @@ html {
     font-style: italic;
     font-size: 14px;
     position: relative;
-    color: #fff;
-    padding: 0px 20px 0px;
+    color: #434342;
+    /* padding: 0px 10px 0px; */
     text-align: center
   }
   
   .view a.info {
     display: inline-block;
     text-decoration: none;
-    padding: 7px 14px;
-    background: #000;
-    color: #fff;
+    /* padding: 7px 14px; */
+    background:#434342;
+    color: #A9E3E3;
     font-family: Raleway, serif;
     text-transform: uppercase;
-    box-shadow: 0 0 1px #000
+    box-shadow: 0 0 1px  #434342;
   }
   
   .view a.info:hover {
-    box-shadow: 0 0 5px #000
+    box-shadow: 0 0 5px #434342;
   }
 
   /*3*/
@@ -89,13 +88,13 @@ html {
     background: transparent;
     margin: 20px 40px 0px 40px;
     transform: scale(0);
-    color: #fefefe;
+    color: #434342;
     transition: all 0.5s linear;
     opacity: 0;
   }
   
   .view-tenth p {
-    color: #fefefe;
+    color: #434342;
     opacity: 0;
     transform: scale(0);
     transition: all 0.5s linear;
