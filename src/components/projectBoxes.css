@@ -4,7 +4,7 @@ html {
 
 
   #all {
-    width: 300%;
+    /* width: 300%; */
     height: 200%; 
     
   }
@@ -64,6 +64,7 @@ html {
     font-family: Raleway, serif;
     text-transform: uppercase;
     box-shadow: 0 0 1px  #434342;
+    margin-top: 1em;
   }
   
   .view a.info:hover {
@@ -94,7 +95,7 @@ html {
   }
   
   .view-tenth p {
-    color: #434342;
+    color: #020202;
     opacity: 0;
     transform: scale(0);
     transition: all 0.5s linear;
@@ -123,3 +124,12 @@ html {
     transform: scale(1);
     opacity: 1;
   }
+
+  p{
+    color: #434342;
+  }
+
+img{
+  width: 300px;
+  height: 200px;
+}

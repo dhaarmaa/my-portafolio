@@ -1,4 +1,5 @@
 import React from 'react';
+// import { animateScroll as scroll} from 'react-scroll';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navigation from './components/Navigation';
@@ -9,6 +10,15 @@ import Contact from "../src/views/js/contact";
 
 
 function App() {
+  // Desplamiento hasta el borde inferior de la página
+// onClickDown = () => {
+//   scroll.scrollToBottom();
+// }
+// Desplamiento hasta el borde superior de la página
+// onClickUp = () => {
+//   scroll.scrollToTop();
+// }
+
   return (
     <div className="App">
    

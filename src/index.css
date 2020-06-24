@@ -4,7 +4,7 @@ body {
   font-family: 'Courgette', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:rgba(15, 14, 14, 0.933);
+  background-color: #fffffb;
 
   color: white;
 }

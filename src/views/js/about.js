@@ -1,45 +1,45 @@
 import React from 'react';
 import '../css/style.css';
 import Navigation from '../../components/Navigation';
-import image1 from '../../img/presentation.png';
-import triangulos from '../../img/triangulos.jpg'
+
+import collage from '../../img/collage1.png';
+import trianguloos2 from '../../img/trianguloos2.png';
 
 function About(){
     
     return(
         
         <div className="large-container">
-            <div className="test">
-                <div>
-                <Navigation home="INICIO" project="PROYECTOS" about="CONOCEME"  curriculum="CV"/>
-                    <div className="headline">
-                        <h1>CONOCEME</h1>
-                    </div>
-                    </div>
-                        <img src={triangulos}  className="img-test"/>
+      
               
-            </div>
+                <Navigation home="INICIO" project="PROYECTOS" about="CONÓCEME"  curriculum="CV"/>
+                    <div className="headline">
+                        <h1>CONÓCEME</h1>
+                    </div>
+                 
+              
             <div className="container-about">
             <div className="content-about">
-                <div className="photo">
-                    {/*fotos con el cmputador/ foto con el instrumento*/}
-
-                    <img src={image1} className="img-about"/> 
-                </div>
+           
+                    <img src={collage} className="img-about"/> 
+        
                 <div className="description">
-                    <p>Egresé del colegio en  el año 2017,desarrolladora  web front-end developer de Laboratoria en el año 2019.</p>
-                    <p>
-                        En  este bootcamps  de Laboratoria  aprendi  JavaScript, React, HTML5, CSS3, Git, gitHub,la implemnetación de frameworks y database dinamica como firebase, el trabajo en equipo, el respeto a las opiniones de los demás, planificación, pero lo mas importante el "probar, fallar y volver a probar", siempre preguntar, nunca quedarnos con la duda, y que somos capaces de aprender todo.
+                    <p>Estudié en el Liceo Madre Cecilia Lazzeri hasta el año 2017 cuando egresé de 4° medio, los dos años siguientes me dediqué a la música hasta el 2019 que ingresé a Laboratoria como desarroladora web front-end developer.</p>
+
+                    <p>En este bootcamps de Laboratoria aprendí JavaScript, React, HTML5, CSS3, Git, gitHub,la implementación de frameworks y database dinámica como Firebase, el trabajo en equipo, el respeto a las opiniones de los demás, planificación, pero lo más importante el "probar, fallar y volver a probar", siempre preguntar, nunca quedarnos con la duda, y que somos capaces de aprender todo.
                     </p>
-                    <p>Me caracterizo por ser muy alegre, risuaña, energica, perseverante y apasionada en cualquier cosa que me proponga hacer.</p>
-                    <p>    
-                        Como pasatiempo soy músico, me dedico a tocar el instrumento viola desde los 13 años.
+
+                    <p>Me caracterizo por ser muy perseverante de objetivos claros y metas logrables, alegre, risueña, enérgica y apasionada en cualquier cosa que me proponga hacer.</p>
+
+                    <p>Como pasatiempo soy músico, me dedico a tocar un instrumento clásico (viola) desde los 13 años, participo en dos orquestas distintas aportando con mi pasión y amor por este arte.
                     </p>
                 </div>
             </div>
+            <div className="triangulediv">
+                <img src={trianguloos2} className="triangle" />
             </div>
-            
-                
+            </div>
+           
         </div>
     )
 }

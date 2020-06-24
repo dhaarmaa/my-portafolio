@@ -1,13 +1,12 @@
 import React from 'react';
 import '../css/style.css';
 import triangulos from '../../img/triangulos.jpg'
-
 import Navigation from "../../components/Navigation";
 
 function Home (){
     return(
         <div className="large-container">
-             <Navigation home="INICIO" project="PROYECTOS" about="CONOCEME"  />
+             <Navigation home="INICIO" project="PROYECTOS" about="CONÓCEME"  />
             <div className="container">   {/*  div de contenido de home*/ }
                 <div className="content-home">  {/*  div de letras de presentacion*/ }
                     <div className="font-home">
@@ -17,11 +16,11 @@ function Home (){
                     </div>
                     <div className="contac">
                         <p>Contactame!</p>
-                        <p><i class="far fa-envelope"></i>Correo:dharma.herrera@gmail.com</p>
+                        <p><i className="far fa-envelope"></i>Correo:dharma.herrera@gmail.com</p>
                         <p>o puedes hacerlo por estas redes:</p>
                         <div className="btnsocial">
-                            <a href="https://www.linkedin.com/in/dharmaherrera/"><i class="fab fa-linkedin"></i>Linkedin</a>
-                            <a href="https://github.com/dhaarmaa"><i class="fab fa-github"></i>GitHub</a>
+                            <a href="https://www.linkedin.com/in/dharmaherrera/"><i className="fab fa-linkedin"></i>Linkedin</a>
+                            <a href="https://github.com/dhaarmaa"><i className="fab fa-github"></i>GitHub</a>
                         </div>
                     </div>  
                 </div>
